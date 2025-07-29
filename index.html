@@ -1,57 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NekoStream - Watch Anime Free</title>
-  <style>
-    body {
-      background-color: #1a1a1d;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 2rem;
-    }
-    .anime-card {
-      display: inline-block;
-      width: 200px;
-      margin: 10px;
-      background-color: #2a2a2e;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    }
-    .anime-card img {
-      width: 100%;
-      height: 280px;
-      object-fit: cover;
-    }
-    .anime-card p {
-      margin: 0;
-      padding: 10px;
-    }
-  </style>
+  <title>NekoStream - Top 100 Anime</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Welcome to NekoStream</h1>
-  <div class="anime-card">
-    <a href="https://hianime.to/watch/one-piece-100?ep=1" target="_blank">
-      <img src="https://cdn.hianime.to/cover/one-piece.png" alt="One Piece"/>
-      <p>One Piece</p>
-    </a>
-  </div>
-  <div class="anime-card">
-    <a href="https://hianime.to/watch/naruto-173?ep=1" target="_blank">
-      <img src="https://cdn.hianime.to/cover/naruto.png" alt="Naruto"/>
-      <p>Naruto</p>
-    </a>
-  </div>
-  <div class="anime-card">
-    <a href="https://hianime.to/watch/jujutsu-kaisen-tv-5346?ep=1" target="_blank">
-      <img src="https://cdn.hianime.to/cover/jujutsu-kaisen-tv.png" alt="Jujutsu Kaisen"/>
-      <p>Jujutsu Kaisen</p>
-    </a>
-  </div>
+  <header>
+    <h1>NekoStream 🎌</h1>
+    <p>Watch the top 100 anime now</p>
+  </header>
+  <main>
+    <div class="anime-grid" id="anime-grid"></div>
+  </main>
+  <script src="anime-data.js"></script>
 </body>
 </html>
