@@ -1,2 +1,3 @@
-# NekoStream Anime
-This is a sample static site for the anime streaming platform NekoStream.
+# NekoStream
+
+Anime streaming UI using Hianime.to links. Simple HTML/CSS only.
