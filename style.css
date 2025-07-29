@@ -180,3 +180,9 @@ header h1 {
   color: #ffccff;
 }
 background: url('https://i.ibb.co/NTWyvMJ/anime-bg.jpg') no-repeat center center fixed;
+body {
+  background-image: url('https://wallpapercave.com/wp/wp9152728.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
