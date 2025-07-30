@@ -3,50 +3,82 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NekoStream - Watch Anime Online Free</title>
-  <meta name="description" content="Watch your favorite anime online in HD, Subbed & Dubbed — all free on NekoStream.live.">
-  <meta property="og:title" content="NekoStream - Watch Anime Online Free">
-  <meta property="og:description" content="Stream trending anime like One Piece, Demon Slayer, and more in Sub & Dub.">
-  <meta property="og:url" content="https://nekostream.live/">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" type="image/png" href="images/favicon.png" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="stylesheet" href="assets/css/darkmodes.css" />
-  <script src="assets/js/jquerys.min.js"></script>
-  <script src="assets/js/main.js" defer></script>
+  <title>NekoStream - Watch Anime Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+      background: #dd8808;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .anime-card {
+      background: #1f1f1f;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+    }
+    .anime-card img {
+      width: 100%;
+      height: auto;
+    }
+    .anime-card p {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    a {
+      color: #dd8808;
+      text-decoration: none;
+    }
+  </style>
 </head>
-<body class="darkmode">
-  <header>
-    <img src="images/nekostream-logo.png" alt="NekoStream Logo" width="270" height="50" />
-    <h1>NekoStream.live</h1>
-  </header>
+<body>
+  <h1>Welcome to NekoStream.live</h1>
+  <div class="grid">
 
-  <main>
-    <section>
-      <h2>Featured Anime</h2>
-      <div class="anime-list">
-        <div>
-          <strong>One Piece</strong><br>
-          <a href="https://gogoanimee.my/category/one-piece">Watch Now</a>
-        </div>
-        <div>
-          <strong>Demon Slayer: Infinity Castle</strong><br>
-          <a href="https://gogoanimee.my/category/kimetsu-no-yaiba-mugen-ressha-hen">Watch Now</a>
-        </div>
-        <div>
-          <strong>Naruto</strong><br>
-          <a href="https://gogoanimee.my/category/naruto">Watch Now</a>
-        </div>
-        <div>
-          <strong>Jujutsu Kaisen</strong><br>
-          <a href="https://gogoanimee.my/category/jujutsu-kaisen-tv">Watch Now</a>
-        </div>
-      </div>
-    </section>
-  </main>
+    <!-- Anime Card 1 -->
+    <div class="anime-card">
+      <a href="watch.html?anime=one-piece">
+        <img src="https://img.hianime.to/cover/one-piece.png" alt="One Piece poster">
+        <p>One Piece</p>
+      </a>
+    </div>
 
-  <footer style="margin-top: 2rem; text-align: center; font-size: 0.9rem; color: #aaa;">
-    © 2025 NekoStream.live — All rights reserved.
-  </footer>
+    <!-- Anime Card 2 -->
+    <div class="anime-card">
+      <a href="watch.html?anime=naruto">
+        <img src="https://img.hianime.to/cover/naruto.png" alt="Naruto poster">
+        <p>Naruto</p>
+      </a>
+    </div>
+
+    <!-- Anime Card 3 -->
+    <div class="anime-card">
+      <a href="watch.html?anime=demon-slayer">
+        <img src="https://img.hianime.to/cover/kimetsu-no-yaiba.png" alt="Demon Slayer poster">
+        <p>Demon Slayer</p>
+      </a>
+    </div>
+
+    <!-- Anime Card 4 -->
+    <div class="anime-card">
+      <a href="watch.html?anime=jujutsu-kaisen">
+        <img src="https://img.hianime.to/cover/jujutsu-kaisen.png" alt="Jujutsu Kaisen poster">
+        <p>Jujutsu Kaisen</p>
+      </a>
+    </div>
+
+  </div>
 </body>
 </html>
