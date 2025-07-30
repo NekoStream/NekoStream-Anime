@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Watch Anime - NekoStream</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: white;
+      margin: 0;
+    }
+    iframe {
+      width: 100%;
+      height: 90vh;
+      border: none;
+    }
+    a.back {
+      display: inline-block;
+      margin: 20px;
+      color: #dd8808;
+    }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="back">← Back to Home</a>
+  <iframe id="player" src="" allowfullscreen></iframe>
+
+  <script>
+    const embeds = {
+      "one-piece": "https://filemoon.sx/e/lkdu8nxl1uyf",
+      "naruto": "https://filemoon.sx/e/h8nto79aezvl",
+      "demon-slayer": "https://filemoon.sx/e/r20s8b7fug4b",
+      "jujutsu-kaisen": "https://filemoon.sx/e/42osz1d2ul5v"
+    };
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const anime = urlParams.get('anime');
+    const player = document.getElementById('player');
+
+    if (anime && embeds[anime]) {
+      player.src = embeds[anime];
+    } else {
+      player.outerHTML = "<p style='padding:20px;'>Anime not found.</p>";
+    }
+  </script>
+</body>
+</html>
