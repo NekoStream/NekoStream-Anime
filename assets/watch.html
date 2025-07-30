@@ -24,7 +24,7 @@
   </style>
 </head>
 <body>
-  <a href="index.html" class="back">← Back to Home</a>
+  <a href="/index.html" class="back">← Back to Home</a>
   <iframe id="player" src="" allowfullscreen></iframe>
 
   <script>
@@ -35,10 +35,10 @@
       "jujutsu-kaisen": "https://filemoon.sx/e/42osz1d2ul5v"
     };
 
-    const urlParams = new URLSearchParams(window.location.search);
-    const anime = urlParams.get('anime');
-    const player = document.getElementById('player');
+    const urlParts = window.location.pathname.split("/");
+    const anime = urlParts[urlParts.length - 1];
 
+    const player = document.getElementById('player');
     if (anime && embeds[anime]) {
       player.src = embeds[anime];
     } else {
