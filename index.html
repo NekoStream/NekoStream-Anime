@@ -1,84 +1,998 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NekoStream - Watch Anime Online</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #111;
-      color: white;
-      margin: 0;
-      padding: 0;
-    }
-    h1 {
-      text-align: center;
-      padding: 20px;
-      background: #dd8808;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-      gap: 15px;
-      padding: 20px;
-    }
-    .anime-card {
-      background: #1f1f1f;
-      border-radius: 8px;
-      overflow: hidden;
-      text-align: center;
-    }
-    .anime-card img {
-      width: 100%;
-      height: auto;
-    }
-    .anime-card p {
-      margin: 10px 0;
-      font-weight: bold;
-    }
-    a {
-      color: #dd8808;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
-  <h1>Welcome to NekoStream.live</h1>
-  <div class="grid">
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en-US" prefix="og: https://ogp.me/ns#">
+    <head profile="http://gmpg.org/xfn/11">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="theme-color" content="#dd8808">
+        <meta name="msapplication-navbutton-color" content="#dd8808">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#dd8808">
+        <style>
+            img:is([sizes="auto" i], [sizes^="auto," i]) {
+                contain-intrinsic-size: 3000px 1500px
+            }
+        </style>
+        <title>NekoStream - Watch Anime in Sub &amp; Dub Free</title>
+        <meta name="description" content="NekoStream official to watch all anime online in HD quality with English Sub and Dub, without irritating ads.">
+        <meta name="robots" content="follow, index">
+        <link rel="canonical" href="https://NekoStream.live/">
+        <link rel="next" href="https://NekoStream.live/page/2/">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="NekoStream - Watch Anime in Sub &amp; Dub Free">
+        <meta property="og:description" content="NekoStream official to watch all anime online in HD quality with English Sub and Dub, without irritating ads.">
+        <meta property="og:url" content="https://NekoStream.live/">
+        <meta property="og:site_name" content="NekoStream">
+        <meta property="og:image" content="https://i2.wp.com/NekoStream.live/wp-content/uploads/2024/07/nekostream-social.png">
+        <meta property="og:image:secure_url" content="https://i2.wp.com/NekoStream.live/wp-content/uploads/2024/07/nekostream-social.png">
+        <meta property="og:image:width" content="720">
+        <meta property="og:image:height" content="360">
+        <meta property="og:image:type" content="image/png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="NekoStream - Watch Anime in Sub &amp; Dub Free">
+        <meta name="twitter:description" content="NekoStream official to watch all anime online in HD quality with English Sub and Dub, without irritating ads.">
+        <meta name="twitter:image" content="https://i2.wp.com/NekoStream.live/wp-content/uploads/2024/07/nekostream-social.png">
+        <script type="application/ld+json" class="rank-math-schema">
+            {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Person",
+                        "@id": "https://NekoStream.live/#person",
+                        "name": "NekoStream"
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://NekoStream.live/#website",
+                        "url": "https://NekoStream.live",
+                        "name": "NekoStream",
+                        "publisher": {
+                            "@id": "https://NekoStream.live/#person"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": {
+                            "@type": "SearchAction",
+                            "target": "https://NekoStream.live/?s={search_term_string}",
+                            "query-input": "required name=search_term_string"
+                        }
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://NekoStream.live/#webpage",
+                        "url": "https://NekoStream.live/",
+                        "name": "NekoStream - Watch Anime in Sub &amp; Dub Free",
+                        "about": {
+                            "@id": "https://NekoStream.live/#person"
+                        },
+                        "isPartOf": {
+                            "@id": "https://NekoStream.live/#website"
+                        },
+                        "inLanguage": "en-US"
+                    }
+                ]
+            }
+        </script>
+        <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+        <script>
+            const ts_config = {
+                "general": {
+                    "ajaxurl": "https:\/\/NekoStream.live\/wp-admin\/admin-ajax.php",
+                    "site_url": "https:\/\/NekoStream.live",
+                    "slow_view_count": false,
+                    "display_view_count": false,
+                    "slow_view_count_interval": 6
+                },
+                "lang": {
+                    "bookmarked_label": "Bookmarked",
+                    "bookmark_label": "Bookmark",
+                    "bookmark_max_reached": "You have reached the maximum bookmark limit",
+                    "widget_episode_label": "Episode"
+                },
+                "bookmark": {
+                    "max": "50",
+                    "enabled": true
+                },
+                "series_history": {
+                    "widget": {
+                        "tpl": "<li>\n    <a href=\"#\/\" data-id=\"{{episode_id}}\" class=\"ts-history-item\">{{series_name}} {{episode_label}} <b>{{episode_number}}<\/b> <span class=\"post-date\">{{time}}<\/span><\/a>\n<\/li>"
+                    }
+                }
+            };
+        </script>
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            window._wpemojiSettings = {
+                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/",
+                "ext": ".png",
+                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/",
+                "svgExt": ".svg",
+                "source": {
+                    "concatemoji": "https:\/\/NekoStream.live\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"
+                }
+            };
+            /*! This file is auto-generated */
+            !function(s, n) {
+                var o, i, e;
+                function c(e) {
+                    try {
+                        var t = {
+                            supportTests: e,
+                            timestamp: (new Date).valueOf()
+                        };
+                        sessionStorage.setItem(o, JSON.stringify(t))
+                    } catch (e) {}
+                }
+                function p(e, t, n) {
+                    e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(t, 0, 0);
+                    var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)
+                      , a = (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(n, 0, 0),
+                    new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                    return t.every(function(e, t) {
+                        return e === a[t]
+                    })
+                }
+                function u(e, t) {
+                    e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(t, 0, 0);
+                    for (var n = e.getImageData(16, 16, 1, 1), a = 0; a < n.data.length; a++)
+                        if (0 !== n.data[a])
+                            return !1;
+                    return !0
+                }
+                function f(e, t, n, a) {
+                    switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !a(e, "\ud83e\udedf")
+                    }
+                    return !1
+                }
+                function g(e, t, n, a) {
+                    var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300,150) : s.createElement("canvas")
+                      , o = r.getContext("2d", {
+                        willReadFrequently: !0
+                    })
+                      , i = (o.textBaseline = "top",
+                    o.font = "600 32px Arial",
+                    {});
+                    return e.forEach(function(e) {
+                        i[e] = t(o, e, n, a)
+                    }),
+                    i
+                }
+                function t(e) {
+                    var t = s.createElement("script");
+                    t.src = e,
+                    t.defer = !0,
+                    s.head.appendChild(t)
+                }
+                "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports",
+                i = ["flag", "emoji"],
+                n.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                },
+                e = new Promise(function(e) {
+                    s.addEventListener("DOMContentLoaded", e, {
+                        once: !0
+                    })
+                }
+                ),
+                new Promise(function(t) {
+                    var n = function() {
+                        try {
+                            var e = JSON.parse(sessionStorage.getItem(o));
+                            if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests)
+                                return e.supportTests
+                        } catch (e) {}
+                        return null
+                    }();
+                    if (!n) {
+                        if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob)
+                            try {
+                                var e = "postMessage(" + g.toString() + "(" + [JSON.stringify(i), f.toString(), p.toString(), u.toString()].join(",") + "));"
+                                  , a = new Blob([e],{
+                                    type: "text/javascript"
+                                })
+                                  , r = new Worker(URL.createObjectURL(a),{
+                                    name: "wpTestEmojiSupports"
+                                });
+                                return void (r.onmessage = function(e) {
+                                    c(n = e.data),
+                                    r.terminate(),
+                                    t(n)
+                                }
+                                )
+                            } catch (e) {}
+                        c(n = g(i, f, p, u))
+                    }
+                    t(n)
+                }
+                ).then(function(e) {
+                    for (var t in e)
+                        n.supports[t] = e[t],
+                        n.supports.everything = n.supports.everything && n.supports[t],
+                        "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                    n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag,
+                    n.DOMReady = !1,
+                    n.readyCallback = function() {
+                        n.DOMReady = !0
+                    }
+                }).then(function() {
+                    return e
+                }).then(function() {
+                    var e;
+                    n.supports.everything || (n.readyCallback(),
+                    (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji),
+                    t(e.wpemoji)))
+                }))
+            }((window,
+            document), window._wpemojiSettings);
+            /* ]]> */
+        </script>
+        <style id="wp-emoji-styles-inline-css" type="text/css">
+            img.wp-smiley, img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 0.07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+            }
+        </style>
+        <style id="classic-theme-styles-inline-css" type="text/css">
+            /*! This file is auto-generated */
+            .wp-block-button__link {
+                color: #fff;
+                background-color: #32373c;
+                border-radius: 9999px;
+                box-shadow: none;
+                text-decoration: none;
+                padding: calc(.667em + 2px) calc(1.333em + 2px);
+                font-size: 1.125em
+            }
 
-    <!-- Anime Card 1 -->
-    <div class="anime-card">
-      <a href="/watch/one-piece">
-        <img src="https://img.hianime.to/cover/one-piece.png" alt="One Piece poster">
-        <p>One Piece</p>
-      </a>
-    </div>
+            .wp-block-file__button {
+                background: #32373c;
+                color: #fff;
+                text-decoration: none
+            }
+        </style>
+        <link rel="stylesheet" id="dashicons-css" href="https://NekoStream.live/wp-includes/css/dashicons.min.css?ver=6.8.2" type="text/css" media="all">
+        <link rel="stylesheet" id="admin-bar-css" href="https://NekoStream.live/wp-includes/css/admin-bar.min.css?ver=6.8.2" type="text/css" media="all">
+        <style id="admin-bar-inline-css" type="text/css">
+            /* Hide CanvasJS credits for P404 charts specifically */
+            #p404RedirectChart .canvasjs-chart-credit {
+                display: none !important;
+            }
 
-    <!-- Anime Card 2 -->
-    <div class="anime-card">
-      <a href="/watch/naruto">
-        <img src="https://img.hianime.to/cover/naruto.png" alt="Naruto poster">
-        <p>Naruto</p>
-      </a>
-    </div>
+            #p404RedirectChart canvas {
+                border-radius: 6px;
+            }
 
-    <!-- Anime Card 3 -->
-    <div class="anime-card">
-      <a href="/watch/demon-slayer">
-        <img src="https://img.hianime.to/cover/kimetsu-no-yaiba.png" alt="Demon Slayer poster">
-        <p>Demon Slayer</p>
-      </a>
-    </div>
+            .p404-redirect-adminbar-weekly-title {
+                font-weight: bold;
+                font-size: 14px;
+                color: #fff;
+                margin-bottom: 6px;
+            }
 
-    <!-- Anime Card 4 -->
-    <div class="anime-card">
-      <a href="/watch/jujutsu-kaisen">
-        <img src="https://img.hianime.to/cover/jujutsu-kaisen.png" alt="Jujutsu Kaisen poster">
-        <p>Jujutsu Kaisen</p>
-      </a>
-    </div>
+            #wpadminbar #wp-admin-bar-p404_free_top_button .ab-icon:before {
+                content: "\f103";
+                color: #dc3545;
+                top: 3px;
+            }
 
-  </div>
-</body>
+            #wp-admin-bar-p404_free_top_button .ab-item {
+                min-width: 80px !important;
+                padding: 0px !important;
+            }
+
+            /* Ensure proper positioning and z-index for P404 dropdown */
+            .p404-redirect-adminbar-dropdown-wrap {
+                min-width: 0;
+                padding: 0;
+                position: static !important;
+            }
+
+            #wpadminbar #wp-admin-bar-p404_free_top_button_dropdown {
+                position: static !important;
+            }
+
+            #wpadminbar #wp-admin-bar-p404_free_top_button_dropdown .ab-item {
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+
+            .p404-redirect-dropdown-container {
+                min-width: 340px;
+                padding: 18px 18px 12px 18px;
+                background: #23282d !important;
+                color: #fff;
+                border-radius: 12px;
+                box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+                margin-top: 10px;
+                position: relative !important;
+                z-index: 999999 !important;
+                display: block !important;
+                border: 1px solid #444;
+            }
+
+            /* Ensure P404 dropdown appears on hover */
+            #wpadminbar #wp-admin-bar-p404_free_top_button .p404-redirect-dropdown-container {
+                display: none !important;
+            }
+
+            #wpadminbar #wp-admin-bar-p404_free_top_button:hover .p404-redirect-dropdown-container {
+                display: block !important;
+            }
+
+            #wpadminbar #wp-admin-bar-p404_free_top_button:hover #wp-admin-bar-p404_free_top_button_dropdown .p404-redirect-dropdown-container {
+                display: block !important;
+            }
+
+            .p404-redirect-card {
+                background: #2c3338;
+                border-radius: 8px;
+                padding: 18px 18px 12px 18px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                border: 1px solid #444;
+            }
+
+            .p404-redirect-btn {
+                display: inline-block;
+                background: #dc3545;
+                color: #fff !important;
+                font-weight: bold;
+                padding: 5px 22px;
+                border-radius: 8px;
+                text-decoration: none;
+                font-size: 17px;
+                transition: background 0.2s, box-shadow 0.2s;
+                margin-top: 8px;
+                box-shadow: 0 2px 8px rgba(220,53,69,0.15);
+                text-align: center;
+                line-height: 1.6;
+            }
+
+            .p404-redirect-btn:hover {
+                background: #c82333;
+                color: #fff !important;
+                box-shadow: 0 4px 16px rgba(220,53,69,0.25);
+            }
+
+            /* Prevent conflicts with other admin bar dropdowns */
+            #wpadminbar .ab-top-menu > li:hover > .ab-item, #wpadminbar .ab-top-menu > li.hover > .ab-item {
+                z-index: auto;
+            }
+
+            #wpadminbar #wp-admin-bar-p404_free_top_button:hover > .ab-item {
+                z-index: 999998 !important;
+            }
+        </style>
+        <link rel="stylesheet" id="style-css" href="https://NekoStream.live/wp-content/themes/animestream/assets/css/styles.css" type="text/css" media="all">
+        <link rel="stylesheet" id="ts-darkstyle-css" href="https://NekoStream.live/wp-content/themes/animestream/assets/css/darkmodes.css" type="text/css" media="all">
+        <link rel="stylesheet" id="ts-second-style-css" href="https://NekoStream.live/wp-content/themes/animestream/assets/css/seconds.css" type="text/css" media="all">
+        <link rel="stylesheet" id="ts-swiper-css" href="https://NekoStream.live/wp-content/themes/animestream/assets/css/swipers.min.css" type="text/css" media="all">
+        <script type="text/javascript" src="https://NekoStream.live/wp-content/themes/animestream/assets/css/jquerys.min.js" id="jquery-js"></script>
+        <script type="text/javascript" id="jquery-js-after">
+            /* <![CDATA[ */
+            const tsCastDefaultImg = 'https://NekoStream.live/wp-content/themes/animestream/assets/img/character-default.png';
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://NekoStream.live/wp-content/themes/animestream/assets/js/tsfn.js?ver=2.3.0" id="ts-functions-js"></script>
+        <script type="text/javascript" src="https://NekoStream.live/wp-content/themes/animestream/assets/js/tabs.js?ver=2.3.0" id="ts-tabs-js"></script>
+        <script type="text/javascript" src="https://NekoStream.live/wp-content/themes/animestream/assets/js/popular_widget.js?ver=2.3.0" id="ts-popular_widget-js"></script>
+        <script type="text/javascript" src="https://NekoStream.live/wp-content/themes/animestream/assets/js/bookmark.js?ver=2.3.0" id="bookmarks_script-js"></script>
+        <link rel="https://api.w.org/" href="https://NekoStream.live/wp-json/">
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://NekoStream.live/xmlrpc.php?rsd">
+        <meta name="generator" content="WordPress 6.8.2">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i,600,600i,700,700i&amp;?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet">
+        <script>
+            $(document).ready(function() {
+                $(".shme").click(function() {
+                    $(".mm").toggleClass("shwx");
+                });
+                $(".expand").click(function() {
+                    $(".megavid").toggleClass("xp");
+                    $(".pd-expand").toggleClass("sxp");
+                });
+                $('.expand').click(function() {
+                    if ($('.expand').hasClass('slamdown')) {
+                        $('.expand').removeClass('slamdown');
+                        jQuery(".mvelement").prependTo(jQuery(".megavid"));
+                    } else {
+                        $('.expand').addClass('slamdown');
+                        jQuery(".mvelement").appendTo(jQuery(".pd-expand"));
+                    }
+                });
+                $(".gnr").click(function() {
+                    $(".gnrx").toggleClass("shwgx");
+                });
+                $(".light").click(function() {
+                    $(".lowvid").toggleClass("highvid");
+                });
+                $(".colap").click(function() {
+                    $(".mindes").toggleClass("alldes");
+                });
+                $(".topmobile").click(function() {
+                    $(".topmobcon").toggleClass("topmobshow");
+                });
+                $(".toggler").click(function() {
+                    $(".inmenu").toggleClass("inmshow");
+                });
+                $(".twoscmob").click(function() {
+                    $(".searchdesk").toggleClass("searchmobi");
+                });
+                $(".srcmob").click(function() {
+                    $(".minmb").toggleClass("minmbx");
+                });
+            });
+        </script>
+        <script>
+            var defaultTheme = "darkmode";
+            var tsmjsload = true;
+        </script>
+        <style>
+            .darkmode .bxcl ul li span.dt a {
+                background: #30353c;
+            }
+
+            #main-menu,.soraddlx .sorattlx,.releases .vl,.serieslist.pop ul li.topone .limit .bw .ctr,#footer .footermenu,.bigcontent .infox .spe span:before,.commentx #submit,.naveps .nvsc a,.radiox input:checked ~ .checkmarkx,.advancedsearch button.searchz,.lista a:hover,.bxcl ul li span.dt a:hover,.bookmark,.bs .bsx .limit .typez.Drama,.hpage a,.slider:before,.darkmode .naveps .nvsc a,.darkmode .lista a,.darkmode .nav_apb a:hover,#sidebar .section ul.season li:before,#sidebar .section ul.season::-webkit-scrollbar-thumb,#sidebar .section .ongoingseries ul li a .l .fas, #sidebar .section .ongoingseries ul li a .r,.releases.latesthome,.quickfilter .filters .filter.submit button,.footer-az .az-list li a,.stylesix .bsx .upscore,.stylefor .bsx .tt span i,.soraddlx .soraurlx strong,.bxcl ul li:hover,.darkmode .quickfilter .filters .filter.submit button,.darkmode .bxcl ul li:hover,#sidebar .section .ongoingseries ul::-webkit-scrollbar-thumb,.quickfilter .filters .filter .scrollz::-webkit-scrollbar-thumb,.bxcl ul::-webkit-scrollbar-thumb,.bigcontent .infox .genxed a:hover,.lastend .inepcx a,.single-info.bixbox .infox .spe span:before,.single-info.bixbox .infox .genxed a:hover,.series-gen .nav-tabs li.active a,.naveps.bignav .nvs.nvsc a,.darkmode .naveps.bignav .nvs.nvsc a,#top-menu li a:hover,.topmobile,.comment-list .comment-body .reply a:hover,.mngentwo .centernav .surprise,#menutwo .inmenu > ul,#menutwo .inmenu > ul>li>a,#menutwo .inmenu > ul>li:first-child:before,#menutwo .inmenu > ul>li:last-child:after,#slidertwo .item .info,.styletwo #sidebar .section .quickfilter .filters .filter.submit button,.styletwo .bs .bsx .limit .bt .epx,#slidertwo .swiper-pagination > span.swiper-pagination-bullet-active,.mngentwo .centernav .searchx.searchmobi #form #s,#sidebar .section .ts-wpop-series-gen .ts-wpop-nav-tabs li.active span,.bixbox .bvl,.post-nav-links .post-page-numbers,.paginationjs ul li a:hover,.paginationjs ul li.active a,.darkmode .paginationjs ul li.active a {
+                background: #dd8808;
+            }
+
+            .pagination span.page-numbers.current,#gallery.owl-loaded .owl-dots .owl-dot.active span,.taxindex li a:hover,.darkmode .taxindex li a:hover {
+                background: #dd8808 !important;
+            }
+
+            .releases span,.advancedsearch button.searchz,.lista a:hover,.darkmode .lista a,.stylefor .bsx:hover,.bxcl ul li:hover,.single-info.bixbox .infox .genxed a:hover,.comment-list .comment-body .reply a {
+                border-color: #dd8808;
+            }
+
+            .surprise:hover {
+                color: #FFF;
+                background: #333;
+            }
+
+            a:hover,.listupd .lexa .dtl h2 a:hover,.live-search_result_container a:hover,.footer-az .az-list li a:hover,.bxcl ul li span.dt a .dashicons .darkmode #sidebar .section .serieslist ul li .leftseries span a,.stylefor a:hover,.seventh .main-seven .tt .sosev span a:hover,.stylesix .bsx .inf span a,.epl-num a,.bixbox.episodedl .epwrapper .epheader .entry-info a,.darkmode a:hover,.dlbox ul li span a,.single-info.bixbox .infox .infolimit h2,.stylenine .bsx .inf span a,.comment-list .comment-body .reply a,.bigcontent .infox .spe span a,#slidertwo .item .info .watch:hover,#slidertwo .paging > div:hover i,.single-info.bixbox .infox .spe span a,.cmt .must-log-in a, .bigcontent .infox .spe span a,.stylesix .bsx .inf ul li a,.meta .year a,.blogpost .entry-header .entry-meta a,.darkmode .blogpost .entry-header .entry-meta a:hover,.darkmode .single-info.bixbox .infox .spe span a:hover,.darkmode .bigcontent .infox .spe span a:hover,.darkmode .cmt .must-log-in a:hover {
+                color: #dd8808;
+            }
+
+            .footer-az .az-list li a:hover {
+                color: #dd8808 !important;
+            }
+
+            .releases h1,.releases h3,#sidebar .section h4 {
+                color: #333
+            }
+
+            .bs .bsx .limit .ply {
+                background: rgba(0,0,0,0.5);
+            }
+
+            #main-menu ul li a:hover {
+                text-decoration: none;
+                color: #FFF;
+            }
+
+            .serieslist ul li .ctr,.bigcontent .infox .genxed a,.single-info.bixbox .infox .genxed a {
+                color: #dd8808;
+                border-color: #dd8808;
+            }
+
+            .darkmode .bigcontent .infox .genxed a,.darkmode .single-info.bixbox .infox .genxed a {
+                color: #CCC
+            }
+
+            .darkmode .bigcontent .infox .genxed a:hover,.darkmode .single-info.bixbox .infox .genxed a:hover,.darkmode .single-info.bixbox .infox .infolimit h2,#ts-history-pagination ul li.active a {
+                color: #FFF
+            }
+
+            .modex a {
+                background: #333;
+            }
+
+            .modex a:hover,.stylefor .bsx .tt span i,.darkmode .naveps.bignav .nvs.nvsc a {
+                color: #FFF;
+            }
+
+            .bigcontent .rt .rating,.bxcl ul li span.dt a {
+                background: #f8f8f8;
+            }
+
+            .bookmark:hover {
+                background: #1d1b26
+            }
+
+            .darkmode .lista a:hover {
+                background: #333
+            }
+
+            @media only screen and (max-width: 800px) {
+                .th,.darkmode .th {
+                    background:#dd8808;
+                }
+
+                #main-menu {
+                    background: rgba(28,28,28,.95);
+                }
+
+                .surprise {
+                    background: #dd8808;
+                }
+            }
+        </style>
+        <style>
+            @media only screen and (max-width: 570px) {
+                #floatcenter,#teaser1,#teaser2,#teaser3,#teaser4 {
+                    display:none;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+            //<![CDATA[
+            $(document).ready(function() {
+                $("#shadow").css("height", $(document).height()).hide();
+                $(".light").click(function() {
+                    $("#shadow").toggle();
+                    if ($("#shadow").is(":hidden"))
+                        $(this).html("<i class='far fa-lightbulb' aria-hidden='true'> <span>Turn Off Light").removeClass("turnedOff");
+                    else
+                        $(this).html("<i class='fas fa-lightbulb' aria-hidden='true'> <span>Turn On Light").addClass("turnedOff");
+                });
+
+            });
+            //]]>
+        </script>
+        <script type="text/javascript">
+            var sf_templates = "<a href=\"{search_url_escaped}\">View All Results<\/a>";
+            var sf_position = '0';
+            var sf_input = '.search-live';
+            jQuery(document).ready(function() {
+                jQuery(sf_input).ajaxyLiveSearch({
+                    "expand": false,
+                    "searchUrl": "https:\/\/NekoStream.live\/?s=%s",
+                    "text": "Search...",
+                    "delay": 500,
+                    "iwidth": 180,
+                    "width": 350,
+                    "ajaxUrl": "https:\/\/NekoStream.live\/wp-admin\/admin-ajax.php",
+                    "rtl": 0
+                });
+                jQuery(".live-search_ajaxy-selective-input").keyup(function() {
+                    var width = jQuery(this).val().length * 8;
+                    if (width < 50) {
+                        width = 50;
+                    }
+                    jQuery(this).width(width);
+                });
+                jQuery(".live-search_ajaxy-selective-search").click(function() {
+                    jQuery(this).find(".live-search_ajaxy-selective-input").focus();
+                });
+                jQuery(".live-search_ajaxy-selective-close").click(function() {
+                    jQuery(this).parent().remove();
+                });
+            });
+        </script>
+        <link rel="icon" href="https://NekoStream.live/images/favicon.png" sizes="32x32">
+        <link rel="icon" href="https://NekoStream.live/images/favicon.png" sizes="192x192">
+        <link rel="apple-touch-icon" href="https://NekoStream.live/images/favicon.png">
+        <meta name="msapplication-TileImage" content="https://NekoStream.live/images/favicon.png">
+        <style type="text/css">
+            .kln {
+                display: none;
+            }
+        </style>
+    </head>
+    <body class="darkmode styletwo" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+        <div id="shadow"></div>
+        <div class="th mngentwo">
+            <div class="centernav bound">
+                <div id="menutwo">
+                    <div class="toggler">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                    <div class="inmenu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+                        <ul id="menu-menu" class="menu">
+                            <li id="menu-item-2242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2242">
+                                <a href="https://NekoStream.live/a-z-list/" itemprop="url">
+                                    <span itemprop="name">A Z List</span>
+                                </a>
+                            </li>
+                            <li id="menu-item-2241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2241">
+                                <a href="https://NekoStream.live/schedule/" itemprop="url">
+                                    <span itemprop="name">Schedule</span>
+                                </a>
+                            </li>
+                            <li id="menu-item-2240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2240">
+                                <a href="https://NekoStream.live/bookmark/" itemprop="url">
+                                    <span itemprop="name">Bookmark</span>
+                                </a>
+                            </li>
+                            <li id="menu-item-2239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2239">
+                                <a href="https://NekoStream.live/history/" itemprop="url">
+                                    <span itemprop="name">History</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <header class="mainheader" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+                    <div class="site-branding logox">
+                        <h1 class="logos">
+                            <a title="NekoStream - Watch Anime Online" itemprop="url" href="https://NekoStream.live/">
+                                <img itemprop="image" width="270" height="50" src="/images/nekostream-logo.png" alt="NekoStream - Watch Anime Online">
+                                <span class="hdl">NekoStream - Watch Anime Online</span>
+                            </a>
+                        </h1>
+                        <meta itemprop="name" content="NekoStream">
+                    </div>
+                </header>
+                <div class="searchx searchdesk">
+                    <form action="https://NekoStream.live/" id="form" method="get" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+                        <meta itemprop="target" content="https://NekoStream.live/?s={query}">
+                        <input id="s" itemprop="query-input" class="search-live" type="text" placeholder="Search..." name="s">
+                        <button type="submit" id="submitsearch" aria-label="search">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+                <a href="https://NekoStream.live/random" class="surprise" aria-label="Surprise Me!">
+                    <i class="far fa-star" aria-hidden="true"></i>
+                    <span>Surprise Me!</span>
+                </a>
+                <span class="twoscmob">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                </span>
+            </div>
+        </div>
+        <div class="blox mlb kln"></div>
+        <br>
+        <div id="content">
+            <div class="wrapper">
+                <div class="postbody">
+                    <div id="slidertwo" class="swiper-container">
+                        <div class="swiper-pagination"></div>
+                        <div class="paging">
+                            <div class="swiper-button-prev prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </div>
+                            <div class="swiper-button-next next">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide item">
+                                <div class="backdrop" style="background-image: url('https://i3.wp.com/NekoStream.live/wp-content/uploads/2025/04/One-Piece.jpg');"></div>
+                                <div class="info">
+                                    <a class="watch" href="https://NekoStream.live/one-piece/">Watch Now</a>
+                                    <h2>
+                                        <a href="https://NekoStream.live/one-piece/" data-jtitle="One Piece">One Piece</a>
+                                    </h2>
+                                    <p></p>
+                                    <p>Barely surviving in a barrel after passing through a terrible whirlpool at sea, carefree Monkey D. Luffy ends up aboard a ship under attack by fearsome pirates. Despite being a…</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide item">
+                                <div class="backdrop" style="background-image: url('https://i0.wp.com/NekoStream.live/wp-content/uploads/2025/07/The-Fragrant-Flower-Blooms-with-Dignity.png');"></div>
+                                <div class="info">
+                                    <a class="watch" href="https://NekoStream.live/the-fragrant-flower-blooms-with-dignity/">Watch Now</a>
+                                    <h2>
+                                        <a href="https://NekoStream.live/the-fragrant-flower-blooms-with-dignity/" data-jtitle="The Fragrant Flower Blooms with Dignity">The Fragrant Flower Blooms with Dignity</a>
+                                    </h2>
+                                    <p></p>
+                                    <p>Despite being adjacent to one another, Chidori Public High School and the all-girls Kikyo Private Academy seem to exist in two different worlds. While the latter boasts an immaculate reputation…</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide item">
+                                <div class="backdrop" style="background-image: url('https://i0.wp.com/NekoStream.live/wp-content/uploads/2025/02/solo-leveling.jpg');"></div>
+                                <div class="info">
+                                    <a class="watch" href="https://NekoStream.live/solo-leveling-season-2-arise-from-the-shadow-jzs/">Watch Now</a>
+                                    <h2>
+                                        <a href="https://NekoStream.live/solo-leveling-season-2-arise-from-the-shadow-jzs/" data-jtitle="Solo Leveling Season 2: Arise from the Shadow">Solo Leveling Season 2: Arise from the Shadow</a>
+                                    </h2>
+                                    <p></p>
+                                    <p>Ore dake Level Up na Ken Season 2: Arise from the Shadow Sung Jin-Woo, dubbed the weakest hunter of all mankind, grows stronger by the day with the supernatural…</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide item">
+                                <div class="backdrop" style="background-image: url('https://i0.wp.com/NekoStream.live/wp-content/uploads/2025/07/Gachiakuta.jpg');"></div>
+                                <div class="info">
+                                    <a class="watch" href="https://NekoStream.live/gachiakuta-vb/">Watch Now</a>
+                                    <h2>
+                                        <a href="https://NekoStream.live/gachiakuta-vb/" data-jtitle="Gachiakuta">Gachiakuta</a>
+                                    </h2>
+                                    <p></p>
+                                    <p>Living in the slums of a wealthy town, Rudo and his foster father Regto try to coexist with the rest of the town's residents, but Rudo despises the wastefulness of…</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide item">
+                                <div class="backdrop" style="background-image: url('https://i0.wp.com/NekoStream.live/wp-content/uploads/2025/07/I-Was-Reincarnated-as-the-7th-Prince-so.jpeg');"></div>
+                                <div class="info">
+                                    <a class="watch" href="https://NekoStream.live/i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability-season-2-vgdwrt/">Watch Now</a>
+                                    <h2>
+                                        <a href="https://NekoStream.live/i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability-season-2-vgdwrt/" data-jtitle="I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability Season 2">I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability Season 2</a>
+                                    </h2>
+                                    <p></p>
+                                    <p>Second season of Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bixbox bbnofrm">
+                        <div class="releases hothome">
+                            <h2>Popular Today</h2>
+                        </div>
+                        <div class="listupd normal">
+                            <div class="excstf">
+                                <article class="bs" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+                                    <div class="bsx">
+                                        <a href="https://NekoStream.live/one-piece-episode-1137/" itemprop="url" title="One Piece Episode 1137" class="tip" rel="3375">
+                                            <div class="limit">
+                                                <div class="hotbadge">
+                                                    <i class="fas fa-fire-alt"></i>
+                                                </div>
+                                                <div class="typez TV">TV</div>
+                                                <div class="ply">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="bt">
+                                                    <span class="epx">Ep 1137</span>
+                                                    <span class="sb Sub">Sub</span>
+                                                </div>
+                                                <img src="https://i2.wp.com/NekoStream.live/wp-content/uploads/2025/04/1743865867-618.jpeg" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" alt="One Piece Episode 1137" decoding="async" fetchpriority="high">
+                                            </div>
+                                            <div class="tt">
+                                                <h4>One Piece Episode 1137</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="bs" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+                                    <div class="bsx">
+                                        <a href="https://NekoStream.live/one-punch-man-season-3-episode-2/" itemprop="url" title="One-Punch Man Season 3 Episode 2" class="tip" rel="3381">
+                                            <div class="limit">
+                                                <div class="hotbadge">
+                                                    <i class="fas fa-fire-alt"></i>
+                                                </div>
+                                                <div class="typez TV">TV</div>
+                                                <div class="ply">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="bt">
+                                                    <span class="epx">Ep 2</span>
+                                                    <span class="sb Sub">Sub</span>
+                                                </div>
+                                                <img src="https://i0.wp.com/NekoStream.live/wp-content/uploads/2025/07/One-Punch-Man-Season-3-1.png" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" alt="One-Punch Man Season 3 Episode 2" decoding="async">
+                                            </div>
+                                            <div class="tt">
+                                                <h4>One-Punch Man Season 3 Episode 2</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="bs" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+                                    <div class="bsx">
+                                        <a href="https://NekoStream.live/tsukimichi-moonlit-fantasy-season-2-episode-25/" itemprop="url" title="Tsukimichi -Moonlit Fantasy- Season 2 Episode 25" class="tip" rel="3376">
+                                            <div class="limit">
+                                                <div class="hotbadge">
+                                                    <i class="fas fa-fire-alt"></i>
+                                                </div>
+                                                <div class="typez TV">TV</div>
+                                                <div class="ply">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="bt">
+                                                    <span class="epx">Ep 25</span>
+                                                    <span class="sb Sub">Sub</span>
+                                                </div>
+                                                <img src="https://i0.wp.com/NekoStream.live/wp-content/uploads/2025/04/moonlit-fantasy-1.jpg" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" alt="Tsukimichi -Moonlit Fantasy- Season 2 Episode 25" decoding="async">
+                                            </div>
+                                            <div class="tt">
+                                                <h4>Tsukimichi -Moonlit Fantasy- Season 2 Episode 25</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="bs" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+                                    <div class="bsx">
+                                        <a href="https://NekoStream.live/my-hero-academia-season-7-episode-13/" itemprop="url" title="My Hero Academia Season 7 Episode 13" class="tip" rel="3377">
+                                            <div class="limit">
+                                                <div class="hotbadge">
+                                                    <i class="fas fa-fire-alt"></i>
+                                                </div>
+                                                <div class="typez TV">TV</div>
+                                                <div class="ply">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="bt">
+                                                    <span class="epx">Ep 13</span>
+                                                    <span class="sb Sub">Sub</span>
+                                                </div>
+                                                <img src="https://i0.wp.com/NekoStream.live/wp-content/uploads/2025/04/My-Hero-Academia-Season-7.jpg" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" alt="My Hero Academia Season 7 Episode 13" decoding="async" loading="lazy">
+                                            </div>
+                                            <div class="tt">
+                                                <h4>My Hero Academia Season 7 Episode 13</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="bs" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+                                    <div class="bsx">
+                                        <a href="https://NekoStream.live/the-new-gate-episode-13/" itemprop="url" title="The New Gate Episode 13" class="tip" rel="3378">
+                                            <div class="limit">
+                                                <div class="hotbadge">
+                                                    <i class="fas fa-fire-alt"></i>
+                                                </div>
+                                                <div class="typez TV">TV</div>
+                                                <div class="ply">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="bt">
+                                                    <span class="epx">Ep 13</span>
+                                                    <span class="sb Sub">Sub</span>
+                                                </div>
+                                                <img src="https://i0.wp.com/NekoStream.live/wp-content/uploads/2025/04/The-New-Gate-1.jpg" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" alt="The New Gate Episode 13" decoding="async" loading="lazy">
+                                            </div>
+                                            <div class="tt">
+                                                <h4>The New Gate Episode 13</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="bs" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+                                    <div class="bsx">
+                                        <a href="https://NekoStream.live/reincarnated-as-a-slime-season-3-episode-13/" itemprop="url" title="That Time I Got Reincarnated as a Slime Season 3 Episode 13" class="tip" rel="3379">
+                                            <div class="limit">
+                                                <div class="hotbadge">
+                                                    <i class="fas fa-fire-alt"></i>
+                                                </div>
+                                                <div class="typez TV">TV</div>
+                                                <div class="ply">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="bt">
+                                                    <span class="epx">Ep 13</span>
+                                                    <span class="sb Sub">Sub</span>
+                                                </div>
+                                                <img src="https://i0.wp.com/NekoStream.live/wp-content/uploads/2025/04/Reincarnated-as-a-Slime.jpg" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" alt="That Time I Got Reincarnated as a Slime Season 3 Episode 13" decoding="async" loading="lazy">
+                                            </div>
+                                            <div class="tt">
+                                                <h4>That Time I Got Reincarnated as a Slime Season 3 Episode 13</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="bs" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+                                    <div class="bsx">
+                                        <a href="https://NekoStream.live/train-to-the-end-of-the-world-episode-13/" itemprop="url" title="Train to the End of the World Episode 13" class="tip" rel="3380">
+                                            <div class="limit">
+                                                <div class="hotbadge">
+                                                    <i class="fas fa-fire-alt"></i>
+                                                </div>
+                                                <div class="typez TV">TV</div>
+                                                <div class="ply">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="bt">
+                                                    <span class="epx">Ep 13</span>
+                                                    <span class="sb Sub">Sub</span>
+                                                </div>
+                                                <img src="https://i0.wp.com/NekoStream.live/wp-content/uploads/2025/04/Train-to-the-End-of-the-World.jpg" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" alt="Train to the End of the World Episode 13" decoding="async" loading="lazy">
+                                            </div>
+                                            <div class="tt">
+                                                <h4>Train to the End of the World Episode 13</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="bs" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+                                    <div class="bsx">
+                                        <a href="https://NekoStream.live/dungeon-meshi-episode-25/" itemprop="url" title="Delicious in Dungeon Episode 25" class="tip" rel="3382">
+                                            <div class="limit">
+                                                <div class="hotbadge">
+                                                    <i class="fas fa-fire-alt"></i>
+                                                </div>
+                                                <div class="typez TV">TV</div>
+                                                <div class="ply">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="bt">
+                                                    <span class="epx">Ep 25</span>
+                                                    <span class="sb Sub">Sub</span>
+                                                </div>
+                                                <img src="https://i0.wp.com/NekoStream.live/wp-content/uploads/2025/04/Delicious-in-Dungeon.jpg" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" alt="Delicious in Dungeon Episode 25" decoding="async" loading="lazy">
+                                            </div>
+                                            <div class="tt">
+                                                <h4>Delicious in Dungeon Episode 25</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footermenu bound">
+                <div class="fcl fcl-first">
+                    <img src="https://NekoStream.live/wp-content/uploads/2024/07/nekostream-logo.png" alt="NekoStream" width="220">
+                    <p>NekoStream is a free anime streaming website which provides HD quality animes with English subtitles and dubbing.</p>
+                </div>
+                <div class="fcl">
+                    <h5>Main Menu</h5>
+                    <ul id="menu-footer-menu" class="menu">
+                        <li id="menu-item-2248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2248">
+                            <a href="https://NekoStream.live/a-z-list/">A-Z List</a>
+                        </li>
+                        <li id="menu-item-2247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2247">
+                            <a href="https://NekoStream.live/bookmark/">Bookmark</a>
+                        </li>
+                        <li id="menu-item-2246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2246">
+                            <a href="https://NekoStream.live/schedule/">Schedule</a>
+                        </li>
+                        <li id="menu-item-2245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2245">
+                            <a href="https://NekoStream.live/history/">History</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fcl">
+                    <h5>Important Links</h5>
+                    <ul id="menu-important-links" class="menu">
+                        <li id="menu-item-2252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2252">
+                            <a href="https://NekoStream.live/dmca/">DMCA</a>
+                        </li>
+                        <li id="menu-item-2251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2251">
+                            <a href="https://NekoStream.live/contact-us/">Contact Us</a>
+                        </li>
+                        <li id="menu-item-2250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2250">
+                            <a href="https://NekoStream.live/privacy-policy/">Privacy Policy</a>
+                        </li>
+                        <li id="menu-item-2249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2249">
+                            <a href="https://NekoStream.live/terms-of-service/">Terms Of Service</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="soraddlx">
+            <div class="sorattlx bound">
+                All contents are provided by third parties and hosted on third-party servers.
+            </div>
+        </div>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js?ver=6.8.2" id="swiper-js"></script>
+        <script type="text/javascript" src="https://NekoStream.live/wp-content/themes/animestream/assets/js/scripts.js?ver=6.8.2" id="script-js"></script>
+        <script type="text/javascript" src="https://NekoStream.live/wp-includes/js/wp-admin/admin-bar.min.js?ver=6.8.2" id="admin-bar-js"></script>
+        <script type="text/javascript" src="https://NekoStream.live/wp-includes/js/hoverintent-js.min.js?ver=1.11.1" id="hoverIntent-js"></script>
+        <script type="text/javascript" src="https://NekoStream.live/wp-includes/js/jquery/jquery.form.min.js?ver=4.3.0" id="jquery-form-js"></script>
+        <script type="text/javascript" id="contact-form-7-js-extra">
+            /* <![CDATA[ */
+            var wpcf7 = {
+                "api": {
+                    "root": "https:\/\/NekoStream.live\/wp-json\/",
+                    "namespace": "contact-form-7\/v1"
+                }
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://NekoStream.live/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.7" id="contact-form-7-js"></script>
+        <script type="text/javascript" src="https://NekoStream.live/wp-content/themes/animestream/assets/js/series_history.js?ver=2.3.0" id="ts-series_history-js"></script>
+        <script>
+            // Add any additional JavaScript for UI tweaks here, if necessary.
+            // For example, if there's a watermark or specific background image set via JS.
+        </script>
+    </body>
 </html>
